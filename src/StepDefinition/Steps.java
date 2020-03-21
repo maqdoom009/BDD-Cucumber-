@@ -27,7 +27,7 @@ public class Steps {
 		driver = new ChromeDriver();
 		
 		driver.get("http://newtours.demoaut.com/");
-		
+		System.out.println("sample");
 		}
 	
 	@When("^Enter the User name and password$")
